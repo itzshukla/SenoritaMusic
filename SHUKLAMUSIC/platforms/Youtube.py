@@ -38,7 +38,7 @@ import requests
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from py_yt import VideosSearch
+from youtubesearchpython.__future__ import VideosSearch
 from ..utils.database import is_on_off, get_assistant
 from ..utils.formatters import time_to_seconds
 from SHUKLAMUSIC import app
